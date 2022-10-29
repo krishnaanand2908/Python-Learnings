@@ -1,5 +1,5 @@
 import os
-from re import X
+import fontstyle
 os.system("cls")
 #1. For each of the following, write a single (that is, one) Python statement:
 # (a) Tell the user to Enter your name, then read in, and assign to a variable, string typed in by the user.
@@ -64,7 +64,64 @@ doesn't
 
 # 7. Write a program to print the following ASCII art using print statements:
 
-#a
+#a)
 
-print()
+# print(r""" 
+#                  _________________                               ___________________  
+#                 /                 \                             / /                 \
+#                /                   \                           |   _     _           \
+#                |                   |                           | /         _         |
+#               /                   /                            \                      \
+#              |       ___\ \| | / /                              \_________________  \  \
+#              |       /           |                              |                 \    |   
+#              |       |   __      |                              |                  \   \
+#             /        |      \    |                              |                   \  | 
+#             |        |       \   |                              | ====               | | 
+#             |        |           |                              | (o-)           _   | |
+#             |      __\       __  |                              /                 \  | |
+#             |     |         (_o) |      Heh Heh Heh            /                )  ) | |
+#              \    |               \       /      Huh Huh Huh  /                 ) /  | |
+#               |   |                \     /                \  |___                _  |  |
+#               |   |              ___\   /                  \    *'                  |  |
+#               |   |              |     /                    \  |____                |  |
+#               |   |    // _______|                              ####\               |  |
+#               |  /        |_|_|_|___/\                         ------               |_/
+#                \|       \  -         |                         |                     |
+#                 |          ----______/                         \_____                |
+#                 |          -                                        \                |
+#                 |         /                                          \               |
+#                 |        /
+#     """)
 
+# paint = (r""" 
+#                  _________________                               ___________________  
+#                 /                 \                             / /                 \
+#                /                   \                           |   _     _           \
+#                |                   |                           | /         _         |
+#               /                   /                            \                      \
+#              |       ___\ \| | / /                              \_________________  \  \
+#              |       /           |                              |                 \    |   
+#              |       |   __      |                              |                  \   \
+#             /        |      \    |                              |                   \  | 
+#             |        |       \   |                              | ====               | | 
+#             |        |           |                              | (o-)           _   | |
+#             |      __\       __  |                              /                 \  | |
+#             |     |         (_o) |      Heh Heh Heh            /                )  ) | |
+#              \    |               \       /      Huh Huh Huh  /                 ) /  | |
+#               |   |                \     /                \  |___                _  |  |
+#               |   |              ___\   /                  \    *'                  |  |
+#               |   |              |     /                    \  |____                |  |
+#               |   |    // _______|                              ####\               |  |
+#               |  /        |_|_|_|___/\                         ------               |_/
+#                \|       \  -         |                         |                     |
+#                 |          ----______/                         \_____                |
+#                 |          -                                        \                |
+#                 |         /                                          \               |
+#                 |        /
+#     """)
+
+# painted = fontstyle.apply(f"{paint}", "white/bold/italic")
+# print(painted)
+
+
+#b)
